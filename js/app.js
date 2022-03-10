@@ -157,6 +157,7 @@ const displayReportedPosts = () => {
         const div = createPost(post);
         document.getElementById( "reported" ).appendChild(div);
     });
+   
 };
 
 const loadPosts = async () =>{
